@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome To My Website .</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css ">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#"><img src="img/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fas fa-window-close fa" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">About Me</a> </li>
+                    <li><a href="#">Contuct Us</a> </li>
+                    <li><a href="#">Help</a> </li>
+                    <li><a href="#">Live Suport </a> </li>
+
+                </ul>
+            </div>
+            <i class="far fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-area">
+            <h1>Here is My Company Fiturs </h1>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. nam tempora cum autem dolorum
+                <br>
+                dolores optio, exercitationem ipsum animi voluptates
+            </p>
+            <br>
+            <br>
+            <br>
+            <a class="button-area" href="#">Visit Our site </a>
+        </div>
+    </section>
+<!-- --------------------Course Section Start Here----------------- -->
+<section  class="course">
+    
+        <h1> Our Website Feture  </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+  
+    <div class="row">
+        <div class="box">
+            <h3>Inter Mediate </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ex commodi error vero id porro natus ut libero voluptates quidem, nulla explicabo voluptatem, ea corrupti sit. Rerum dolor error optio!</p>
+        </div>
+        <div class="box">
+            <h3>Degree </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ex commodi error vero id porro natus ut libero voluptates quidem, nulla explicabo voluptatem, ea corrupti sit. Rerum dolor error optio!</p>
+        </div>
+        <div class="box">
+            <h3>Inter Mediate </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ex commodi error vero id porro natus ut libero voluptates quidem, nulla explicabo voluptatem, ea corrupti sit. Rerum dolor error optio!</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- ----------------------Campus-------------------- -->
+
+<section class="campus">
+    <h1> Our Global Campus  </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+<div class="row">
+    <div class="images-campus">
+        <img src="img/london.png" alt="">
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+    </div>
+    
+    <div class="images-campus">
+        <img src="img/newyork.png" alt="">
+        <div class="layer">
+            <h3>NEWYORK</h3>
+        </div>
+    </div>
+    
+    <div class="images-campus">
+        <img src="img/washington.png" alt="">
+        <div class="layer">
+            <h3>WASHINGTON</h3>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+</section>
+
+
+
+<!-- -------Java Script Here Togol Menu---------- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
